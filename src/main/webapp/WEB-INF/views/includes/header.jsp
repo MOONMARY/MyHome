@@ -13,12 +13,12 @@
       	<li><a href="<c:url value="/users?a=joinform"/>">회원가입</a><li>
       	<li><a href="<c:url value="/users">
       		<c:param name="a" value="loginform"/>
-      			</c:url>"로그인</a></li>
+      			</c:url>">로그인</a></li>
       		</c:when>
       		<c:otherwise>
       		
       	<li>${sessionScope.authUser.name } 님, 안녕하세요 ^_^</li><br/>
-      	<li><a href="<c:url value="/users?a=Logout"/>로그아웃</a></li>
+      	<li><a href="<c:url value="/users?a=Logout"/>">로그아웃</a></li>
       		</c:otherwise>
       	</c:choose>
       </ul>

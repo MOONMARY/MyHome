@@ -17,17 +17,16 @@
       <h1>My Homepage</h1>
     </div --> <!-- /header -->
     
-      <jsp:param name="param1" value="value1" />
-      <jsp:param name="param2" value="value2" />
+   
     
-    <c:import url="/WEB-INF/view/includes/header.jsp">
+    <c:import url="/WEB-INF/views/includes/header.jsp">
     	<c:param name="param1" value="value1"/>
     	<c:param name="param2" value="value2"/>
     </c:import>
 
 
 	
-	<c:import url="/WEB-INF/view/includes/navigation.jsp"/>
+	<c:import url="/WEB-INF/views/includes/navigation.jsp"/>
 	<div id="wrapper">
       <div id="content">
 			<!-- Content 영역 -->
